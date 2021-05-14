@@ -11,7 +11,7 @@ interface AppComponent {
     @Component.Builder
     interface Builder {
         @BindsInstance
-        fun setAppName(name: String) : Builder
+        fun name(name: String) : Builder
         fun build(): AppComponent
     }
 }

@@ -7,6 +7,5 @@ import javax.inject.Named
 @Module
 class AppModule {
     @Provides
-    @Named("AA")
-    fun providesAppName(name: String) = name
+    fun providesApplication(name : String) = Application(name)
 }
