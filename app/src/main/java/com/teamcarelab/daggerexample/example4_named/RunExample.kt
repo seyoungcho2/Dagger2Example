@@ -1,13 +1,13 @@
-package com.teamcarelab.daggerexample.example3
+package com.teamcarelab.daggerexample.example4_named
 
 
 fun main(){
     val personComponent : SchoolComponent = DaggerSchoolComponent.create()
     val student = Student()
     personComponent.injectStudent(student)
-    println(student.name) // Example3 name
+    println(student.name) // StudentA
 
     val teacher = Teacher()
     personComponent.injectTeacher(teacher)
-    println(teacher.name)
+    println(teacher.name) // Teacher
 }

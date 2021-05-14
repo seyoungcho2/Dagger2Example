@@ -1,4 +1,4 @@
-package com.teamcarelab.daggerexample.example3
+package com.teamcarelab.daggerexample.example3_member_injection
 
 import javax.inject.Inject
 

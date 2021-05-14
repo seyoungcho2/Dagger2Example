@@ -1,4 +1,4 @@
-package com.teamcarelab.daggerexample.example2
+package com.teamcarelab.daggerexample.example3_member_injection
 
 import dagger.Module
 import dagger.Provides

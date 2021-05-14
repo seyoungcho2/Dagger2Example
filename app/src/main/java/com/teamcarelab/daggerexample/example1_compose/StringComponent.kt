@@ -1,4 +1,4 @@
-package com.teamcarelab.daggerexample.example1
+package com.teamcarelab.daggerexample.example1_compose
 
 import dagger.Component
 

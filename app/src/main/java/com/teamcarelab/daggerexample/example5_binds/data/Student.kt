@@ -1,4 +1,4 @@
-package com.teamcarelab.daggerexample.example5.data
+package com.teamcarelab.daggerexample.example5_binds.data
 
 import javax.inject.Inject
 

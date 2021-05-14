@@ -1,6 +1,6 @@
-package com.teamcarelab.daggerexample.example5
+package com.teamcarelab.daggerexample.example5_binds
 
-import com.teamcarelab.daggerexample.example5.data.Person
+import com.teamcarelab.daggerexample.example5_binds.data.Person
 
 
 fun main() {
